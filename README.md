@@ -7,7 +7,15 @@ Tomodoro is a command-line tool for tracking tasks along with the Pomodoro techn
 
 ## INSTALLATION
 
+```
+$ npm i -g tomodoro
+```
 
+## USAGE
+
+```
+$ tomodoro
+```
 ## KEYBINDS
 
 | Key           | Function                                                   |
