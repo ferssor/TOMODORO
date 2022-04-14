@@ -1,42 +1,25 @@
 {
   "name": "tomodoro",
   "version": "1.0.0",
-  "description": "Tomodoro is a command-line tool for tracking tasks along with the Pomodoro technique for organization and productivity.",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ferssor/TOMODORO.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ferssor/TOMODORO/issues"
-  },
-  "homepage": "https://github.com/ferssor/TOMODORO#readme",
   "dependencies": {
     "chalk": "^5.0.1",
     "commander": "^9.1.0",
-    "ink": "^3.2.0",
-    "neo-blessed": "^0.2.0"
+    "neo-blessed": "^0.2.0",
+    "prettier": "^2.6.2"
   },
   "devDependencies": {
-    "@types/node": "^17.0.21",
-    "@types/react": "^17.0.39",
-    "@typescript-eslint/eslint-plugin": "^5.14.0",
-    "@typescript-eslint/parser": "^5.14.0",
-    "eslint": "^7.32.0",
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.2.0",
-    "eslint-plugin-react": "^7.29.3",
-    "typescript": "^4.6.2",
-    "webpack": "^5.70.0",
-    "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.7.4"
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.19.0",
+    "eslint": "^8.13.0",
+    "typescript": "^4.6.3"
   }
 }
