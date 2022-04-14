@@ -1,5 +1,2 @@
-const world = 'world';
+import chalk from "chalk";
 
-export function hello(world: string = "world"): string {
-  return `Hello ${world}! `;
-}
